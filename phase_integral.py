@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import scipy.interpolate as intp
 import scipy.integrate as integ
 
-def lineintegral(function, xmin, xmax, ymin, ymax, points): #integrates over a line. shittily 
+def lineintegral(function, xmin, xmax, ymin, ymax, points): #integrates over a line.
     xline = np.linspace(xmin, xmax, points)
     yline = np.linspace(ymin, ymax, points)
     result = 0
